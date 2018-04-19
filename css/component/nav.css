@@ -1,13 +1,29 @@
+html {
+    background-image: url(../../img/maple.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
 .nav {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     font-size: 0;
-    background-color: rgba(85, 85, 85, .5);
+    background-color: rgba(0, 0, 0, 0.1);
     position: fixed;
+    padding: 20px 0;
     top: 0;
     left: 0;
     right: 0;
+}
+
+.nav-scroll {
+    background-color: #555;
 }
 
 .nav .logo,
@@ -27,7 +43,7 @@
 
 .nav .navbar .navlink {
     padding: 20px;
-    color: #eee;
+    color: #fff;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3;
@@ -36,7 +52,7 @@
 
 .nav .navbar .navlink:hover {
     color: #fff;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .nav .aboutme-content {
@@ -45,7 +61,7 @@
     display: inline-block;
     background-color: #e4fffd;
     position: fixed;
-    top: 64px;
+    top: 0px;
     right: 0;
     bottom: 0;
     transition: all 0.3s;

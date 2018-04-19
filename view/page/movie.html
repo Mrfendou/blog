@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="../../css/lib/normalize.css">
     <link rel="stylesheet" href="../../css/commom/global.css">
     <link rel="stylesheet" href="../../css/component/nav.css">
-    <link rel="stylesheet" href="../../css/page/index.css">
+    <link rel="stylesheet" href="../../css/page/movie.css">
     <title>Movies</title>
 </head>
 
 <body style="background-color: rgba(0, 0, 0, 0.1);">
     <!-- 导航栏 -->
-    <div class="nav">
+    <div class="nav" id="nav">
         <div class="container">
             <div class="logo fl">
                 <img src="../../img/logo.png" alt="">
@@ -61,11 +61,12 @@
         </div>
     </div>
     <!-- 内容区 -->
-    <div class="content">
-        <div class="container">
+
+    <div class="container">
+        <div class="content">
             <div class="category-nav">Classiification
                 <ul>
-                    <li class="fa fa-minus-square">Movies
+                    <li class="fa fa-minus-square level1">Movies
                         <ul>
                             <li>Sci-fi Movies</li>
                             <li>Action Movies</li>
@@ -79,7 +80,7 @@
                             <li>Comedy</li>
                         </ul>
                     </li>
-                    <li class="fa fa-minus-square">Anime
+                    <li class="fa fa-minus-square level1">Anime
                         <ul>
                             <li>War</li>
                             <li>Duel</li>
@@ -100,7 +101,7 @@
                         </ul>
 
                     </li>
-                    <li class="fa fa-minus-square">TV series
+                    <li class="fa fa-minus-square level1">TV series
                         <ul>
                             <li>Youth Idol</li>
                             <li>Sitcom</li>
@@ -118,10 +119,27 @@
                     </li>
                 </ul>
             </div>
+            <div class="main-content">
+                <div class="hotsearch">
+                    <div class="hotrecom">
+                        <p>Hot Rcommendation:</p>
+                        <a href="" class="recomlist recom1">The Avengers3</a>
+                        <a href="" class="recomlist recom2">Wild Beast</a>
+                        <a href="" class="recomlist recom3">Drangon Ball Super</a>
+                    </div>
+                    <form class="searchbar" id="searchbar">
+                        <input type="text" class="inputs" id="inputs" placeholder="输入你的搜索词">
+                        <button class="btn btn-search" id="btn-search">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
 </body>
 <script src="../../js/main.js"></script>
 <script src="../../js/movie/side-fold.js"></script>
+
 </html>
