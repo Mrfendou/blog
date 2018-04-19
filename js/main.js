@@ -6,6 +6,7 @@ var aboutme = document.querySelector('#aboutme'),
 aboutme.addEventListener('click', function (e) {
     e.preventDefault();
     aboutme_content.hidden = !aboutme_content.hidden;
+
 });
 
 aboutme_content.addEventListener('click', function (e) {
@@ -24,9 +25,13 @@ document.addEventListener('click', function (e) {
 // 滚动时导航栏背景变深
 var nav = document.getElementById('nav');
 window.addEventListener('scroll', function () {
-    if (document.documentElement.scrollTop >= 20){
-        nav.classList.add('nav-scroll');
-    }else {
-        nav.classList.remove('nav-scroll');
+    if (document.documentElement.scrollTop >= 20) {
+        nav
+            .classList
+            .add('nav-scroll');
+    } else {
+        nav
+            .classList
+            .remove('nav-scroll');
     }
 })

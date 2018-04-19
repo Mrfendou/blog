@@ -16,19 +16,18 @@ for (var i = 0; i < li_all.length; i++) {
         
         /*倒置可见性*/
         list.hidden = !list.hidden;
-        var icon = this.querySelector('i');
         if (list.hidden) {
-            icon
+            this
                 .classList
                 .remove('fa-minus-square');
-            icon
+            this
                 .classList
                 .add('fa-plus-square');
         } else {
-            icon
+            this
                 .classList
                 .remove('fa-plus-square');
-            icon
+            this
                 .classList
                 .add('fa-minus-square');
         }

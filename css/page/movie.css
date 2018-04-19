@@ -1,12 +1,3 @@
-ul,
-li {
-    display: block !important;
-}
-
-[hidden] {
-    display: none !important;
-}
-
 .content {
     margin-top: 104px;
     display: -webkit-flex;
@@ -31,6 +22,7 @@ li {
 }
 
 .content .category-nav .level1 {
+    display: block;
     font-size: 1.3rem;
     margin: 20px 0;
     cursor: pointer;
