@@ -23,6 +23,7 @@
 
 .content .category-nav .level1 {
     display: block;
+    user-select: none;
     font-size: 1.3rem;
     margin: 20px 0;
     cursor: pointer;
@@ -42,10 +43,13 @@
     cursor: pointer;
     user-select: none;
     font-weight: bold;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .content .category-nav .level1 li:hover {
     transform: scale(1.1);
+    color: rgb(173, 2, 179);
 }
 
 .content .main-content {

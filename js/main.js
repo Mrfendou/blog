@@ -10,17 +10,15 @@ aboutme.addEventListener('click', function (e) {
 });
 
 aboutme_content.addEventListener('click', function (e) {
-    if (e.target === aboutme_close) 
+    if (e.target === aboutme_close)
         aboutme_content.hidden = true;
-    }
-);
+});
 
 document.addEventListener('click', function (e) {
     let el = e.target;
-    if (!el.closest('#aboutme_content') && el !== aboutme) 
+    if (!el.closest('#aboutme_content') && el !== aboutme)
         aboutme_content.hidden = true;
-    }
-);
+});
 
 // 滚动时导航栏背景变深
 var nav = document.getElementById('nav');
@@ -29,9 +27,11 @@ window.addEventListener('scroll', function () {
         nav
             .classList
             .add('nav-scroll');
+        nav.style.padding = '0';
     } else {
         nav
             .classList
             .remove('nav-scroll');
+        nav.style.padding = '20px 0';
     }
-})
+});
