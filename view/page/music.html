@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/lib/normalize.css">
+    <link rel="stylesheet" href="../../css/commom/global.css">
+    <link rel="stylesheet" href="../../css/component/nav.css">
+    <link rel="stylesheet" href="../../css/page/music.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="nav" id="nav">
+        <div class="container">
+            <div class="logo fl">
+                <img src="../../img/logo.png" alt="">
+            </div>
+            <div class="navbar">
+                <a href="../../index.html" class="navlink home">
+                    <i class="fa fa-home"></i>Home</a>
+                <a href="" class="navlink library">
+                    <i class="fa fa-book"></i>Library</a>
+                <a href="movie.html" class="navlink movie">
+                    <i class="fa fa-tv"></i>TV</a>
+                <a href="music.html" class="navlink game">
+                    <i class="fa fa-gamepad"></i>Games</a>
+                <a href="" class="navlink music">
+                    <i class="fa fa-music"></i>Music</a>
+                <a href="" class="navlink aboutme" id="aboutme">
+                    <i class="fa fa-user-circle"></i>About me</a>
+            </div>
+            <div class="aboutme-content" id="aboutme_content" hidden>
+                <button id="aboutme_close" class="close-side">Collapse
+                    <i class="fa fa-chevron-circle-right"></i>
+                </button>
+                <div class="me-pic">
+                    <img src="../../img/avatar.jpg">
+                </div>
+                <div class="person-info">
+                    <p>
+                        <i class="fa fa-user-circle-o"></i>wuyouhua</p>
+                    <p>
+                        <i class="fa fa-envelope-o"></i>123456789@163.com</p>
+                    <p>
+                        <i class="fa fa-phone"></i>12345678901</p>
+                    <p>
+                        <i class="fa fa-address-book-o"></i>beijing</p>
+                    <p>
+                        <i class="fa fa-qq"></i>1234567</p>
+                </div>
+                <div class="qrcode">
+                    <img src="../../img/QRcode.jpg">
+                </div>
+                <p class="motto">The world is hard,strruggle is the only way out.</p>
+            </div>
+        </div>
+    </div>
+    <!-- 主内容区 -->
+    <div class="main-content">
+        <div class="container">
+            <div class="content">
+                <div class="music-desc">
+                    <div class="author">
+                        <img src="../../img/music/tubo/tubo.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <p>专辑:
+                            <a href="">Higher</a>
+                        </p>
+                        <p>歌手:
+                            <a href="">Tobu</a>
+                        </p>
+                        <p>来源:
+                            <a href="">Tobu</a>
+                        </p>
+                    </div>
+                    <div class="actionbar">
+                        <button class="liked">
+                            <i class="fa fa-heart"></i>喜欢</button>
+                        <button class="collection">
+                            <i class="fa fa-folder-o"></i>收藏</button>
+                        <button class="download">
+                            <i class="fa fa-download"></i>下载</button>
+                        <button class="share">
+                            <i class="fa fa-share-square-o"></i>分享</button>
+                    </div>
+                    <div class="classy-labal">
+
+                    </div>
+                </div>
+                <div class="musicbar">
+                    <div class="navlist">分类:&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="">电音</a>
+                        <a href="">摇滚</a>
+                        <a href="">流行</a>
+                        <a href="">心情</a>
+                        <a href="">轻音乐</a>
+                        <a href="">华语</a>
+                        <a href="">民谣</a>
+                        <a href="">游戏</a>
+                        <a href="">影视原声</a>
+                        <a href="">怀旧</a>
+                    </div>
+                    <div class="music-list">
+                        <div>
+                            <p class="num">序号</p>
+                            <p class="action">操作</p>
+                            <p class="music-title">音乐标题</p>
+                            <p class="music-author">歌手</p>
+                            <p class="album">专辑</p>
+                            <p class="duration">时长</p>
+                            <p class="classification">分类</p>
+                        </div>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">1</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Higher</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Higher</p>
+                            <p class="duration">03:33</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">2</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Life</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Life</p>
+                            <p class="duration">03:24</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">3</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Hope</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Hope</p>
+                            <p class="duration">04:48</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">4</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Axel F</p>
+                            <p class="music-author">Crazy Frog</p>
+                            <p class="album">More Crazy Hits</p>
+                            <p class="duration">02:51</p>
+                            <p class="classification">摇滚</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">5</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Best Moments Ft.Blazo</p>
+                            <p class="music-author">Kondor</p>
+                            <p class="album">Peace of Body</p>
+                            <p class="duration">03:29</p>
+                            <p class="classification">摇滚</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">6</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Higher</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Higher</p>
+                            <p class="duration">03:33</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">7</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Burning</p>
+                            <p class="music-author">Maria Arredondo</p>
+                            <p class="album">Not Going Under</p>
+                            <p class="duration">04:03</p>
+                            <p class="classification">摇滚</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">8</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">C4</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Sugar</p>
+                            <p class="duration">03:16</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">9</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Candyland</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Candyland</p>
+                            <p class="duration">03:20</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">10</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Cloud 9</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Cloud 9</p>
+                            <p class="duration">04:73</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">11</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">Crime</p>
+                            <p class="music-author">Tubo</p>
+                            <p class="album">Crime</p>
+                            <p class="duration">03:50</p>
+                            <p class="classification">电音</p>
+                        </label>
+                        <label class="list">
+                            <input type="checkbox" style="display: none;">
+                            <p class="num">12</p>
+                            <p class="action">
+                                <i class="fa fa-heart"></i>
+                                <i class="fa fa-folder-o"></i>
+                                <i class="fa fa-download"></i>
+                                <i class="fa fa-share-square-o"></i>
+                            </p>
+                            <p class="music-title">怎么说我不爱你</p>
+                            <p class="music-author">萧敬腾</p>
+                            <p class="album">狂想曲</p>
+                            <p class="duration">04:35</p>
+                            <p class="classification">流行</p>
+                        </label>
+                    </div>
+
+                    <div class="toolbar">
+                        <button id="allselect">全选</button>
+                        <button id="cancle">取消</button>
+                        <button id="reverse">倒置选中</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../js/main.js"></script>
+<script src="../../js/music/checked.js"></script>
+
+</html>

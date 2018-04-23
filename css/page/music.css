@@ -1,0 +1,143 @@
+.main-content {
+    margin-top: 204px;
+}
+
+.main-content .content {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+
+.main-content .content .music-desc,
+.main-content .content .musicbar {
+    font-size: 1rem;
+    background-color: rgba(244, 244, 244, 0.8);
+    border-radius: 5px;
+    box-shadow: #aaa 5px 5px 5px;
+    padding: 0 20px;
+}
+
+.main-content .content .music-desc {
+    width: 25%;
+}
+
+.main-content .content .music-desc .author {
+    padding: 40px 40px;
+}
+
+.main-content .content .music-desc .author img {
+    border-radius: 5px;
+}
+
+.main-content .content .music-desc .desc {
+    padding: 0 40px 40px 40px;
+}
+
+.main-content .content .music-desc .actionbar {
+    display: -webkit-flex;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.main-content .content .music-desc .actionbar button {
+    width: 60px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    height: 28px;
+    color: #666;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.main-content .content .musicbar {
+    width: 74%;
+}
+
+.main-content .content .musicbar .navlist {
+    padding: 20px 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.main-content .content .musicbar .navlist a {
+    padding-right: 40px;
+    color: #666;
+}
+
+.main-content .content .musicbar .music-list {
+    margin: 30px 0;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 0;
+}
+
+.main-content .content .musicbar .music-list p {
+    display: inline-block;
+}
+
+.main-content .content .musicbar .music-list .num {
+    width: 5%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-content .content .musicbar .music-list .action {
+    width: 15%;
+    font-size: 13px;
+    text-align: center;
+    color: #666;
+}
+
+.main-content .content .musicbar .music-list .music-title {
+    width: 30%;
+    font-size: 13px;
+}
+
+.main-content .content .musicbar .music-list .music-author {
+    width: 18%;
+    font-size: 13px;
+}
+
+.main-content .content .musicbar .music-list .album {
+    width: 14%;
+    font-size: 13px;
+}
+
+.main-content .content .musicbar .music-list .classification {
+    width: 8%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-content .content .musicbar .music-list .duration {
+    width: 10%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-content .content .musicbar .music-list .list {
+    display: block;
+    cursor: pointer;
+}
+
+.main-content .content .musicbar .music-list .list:hover {
+    background-color: rgba(133, 132, 133, 0.2);
+}
+
+.main-content .content .musicbar .toolbar {
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.main-content .content .musicbar .toolbar button {
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-right: 20px;
+}
