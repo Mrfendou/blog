@@ -24,7 +24,7 @@ list.forEach(function (item, i) {
                         return;
                     item2.checked = start_checked;
                     if (item.checked) {
-                        label[j].style.background = 'rgba(133, 132, 133, 0.2)';
+                        label[j].style.background = 'rgba(133, 132, 133, 0.3)';
                     } else {
                         label[j].style.background = 'rgba(133, 132, 133, 0)';
                     }
@@ -33,7 +33,7 @@ list.forEach(function (item, i) {
                 start_index = i;
                 start_checked = item.checked;
                 if (item.checked) {
-                    label[i].style.background = 'rgba(133, 132, 133, 0.2)';
+                    label[i].style.background = 'rgba(133, 132, 133, 0.3)';
                 } else {
                     label[i].style.background = 'rgba(133, 132, 133, 0)';
                 }
@@ -45,7 +45,7 @@ all.addEventListener('click', function () {
     list
         .forEach(function (item, i) {
             item.checked = true;
-            label[i].style.background = 'rgba(133, 132, 133, 0.2)';
+            label[i].style.background = 'rgba(133, 132, 133, 0.3)';
         });
 });
 //取消所有选择列表
@@ -62,7 +62,7 @@ reverse.addEventListener('click', function () {
         .forEach(function (item, i) {
             item.checked = !item.checked;
             if (item.checked) {
-                label[i].style.background = 'rgba(133, 132, 133, 0.2)';
+                label[i].style.background = 'rgba(133, 132, 133, 0.3)';
             } else {
                 label[i].style.background = 'rgba(133, 132, 133, 0)';
             }
