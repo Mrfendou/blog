@@ -1,3 +1,7 @@
+.nav .navbar .movie {
+    color: rgb(255, 102, 0);
+}
+
 .content {
     margin-top: 104px;
     display: -webkit-flex;
