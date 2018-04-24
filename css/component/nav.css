@@ -29,7 +29,7 @@ html {
 
 .nav-scroll {
     background-color: #555;
-
+    z-index: 1;
 }
 
 .nav .logo,
