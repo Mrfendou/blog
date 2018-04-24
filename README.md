@@ -1,3 +1,3 @@
 # blog
 personal blog
-[demo](https://mrfendou.github.io/blog/index.html)
+[demo](https://wuyouhuaz.github.io/blog/index.html)
