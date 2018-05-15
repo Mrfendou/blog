@@ -42,11 +42,13 @@
     background-color: rgba(216, 216, 216, 0.35);
 }
 
-.area2 .library {
+.area2 .library,
+.area3 .tv {
     padding: 40px 0;
 }
 
-.area2 .library .liblink {
+.area2 .library .liblink,
+.area3 .tv .tvlink {
     color: rgba(0, 0, 0, 0.5);
     font-size: 2rem;
     margin: 20px 0;
@@ -54,12 +56,14 @@
     transition: all 0.3s ease-out;
 }
 
-.area2 .library .liblink:hover {
+.area2 .library .liblink:hover,
+.area3 .tv .tvlink:hover {
     color: rgba(224, 90, 0, 0.8);
     transform: scale(1.1);
 }
 
-.area2 .shelf {
+.area2 .shelf,
+.area3 .tvbox {
     margin-top: 80px;
     display: -webkit-inline-flex;
     display: inline-flex;
@@ -71,23 +75,61 @@
     width: 280px;
     margin: 0 40px 25px 0;
     padding: 0 20px;
-    background-color: rgba(139, 139, 139, 0.25);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.area2 .shelf .booklist:hover,
+.area3 .tvbox .tvshow:hover {
+    box-shadow: #666 0 0 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.area2 .shelf .booklist .book-pic {
+    padding: 0 50px;
 }
 
 .area2 .shelf .booklist img {
     height: 200px;
-    margin-left: 50px;
     margin-top: 20px;
     transition: all 0.3s ease-out;
     cursor: pointer;
 }
 
 .area2 .shelf .booklist img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .area2 .shelf .booklist .book-desc {
     margin: 20px 0;
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
+}
+
+.area3 .tv .tvbox .tvshow {
+    width: 33.3%;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.area3 .tv .tvbox .show-pic {
+    padding: 0 30px;
+    width: 100%;
+}
+
+.area3 .tv .tvbox img {
+    max-width: 366px;
+    margin-top: 20px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.area3 .tv .tvbox img:hover {
+    transform: scale(1.1);
+}
+
+.area3 .tv .tvbox p {
+    padding: 0 25px;
+    margin-bottom: 40px;
 }
